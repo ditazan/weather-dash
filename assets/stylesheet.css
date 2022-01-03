@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Basic Manual";
+    src: url("./fonts/SvBasicManual-nRPP.ttf");
+  }
+
+body{
+    background-color: #1d1d1d;
+    color: #00ffbf;
+    font-family: "Basic Manual";
+}
+
+
+.bord {
+margin: 10px;
+   border-radius: 25px; 
+   border: 1px solid #00ffbf;
+    
+}
+
+.row{
+    border: 1px, dashed, red;
+}
+
+input{
+    color: #00ffbf;
+    background: none;
+}
+
+input[type=text]:focus {
+    box-shadow: 7px 7px #00ffbf;
+
+  }
+
+.btn{
+background: #00ffbf;
+border-radius: 25px; 
+padding: 1px 7px;
+}
+
+.city{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 25px; 
+    border: 2px dotted #00ffbf;
+}
+
+.city:hover {
+    box-shadow: 5px 5px #00ffbf;
+
+  }
