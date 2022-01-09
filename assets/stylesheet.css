@@ -66,3 +66,9 @@ padding: 1px 7px;
   ul{
       list-style:  square;
   }
+
+  #current-uv-span{
+      padding: 0 3px;
+      color: #1d1d1d;
+      border-radius: 5px;
+  }
