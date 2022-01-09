@@ -1,25 +1,39 @@
 @font-face {
     font-family: "Basic Manual";
     src: url("./fonts/SvBasicManual-nRPP.ttf");
+
+  }
+
+  @font-face{
+    font-family: "Space Age";
+    src: url("./fonts/space-age.ttf");
   }
 
 body{
     background-color: #1d1d1d;
     color: #00ffbf;
     font-family: "Basic Manual";
+    text-shadow: 0 0 10px #00ffbfa4;
 }
 
+h1, h2, h3{
+    font-family: "Space Age";
+}
 
 .bord {
 margin: 10px;
    border-radius: 25px; 
    border: 1px solid #00ffbf;
+   padding: 5px 10px;
+   box-shadow: 0 0 10px  #00ffbfa4;
     
 }
 
 .row{
     border: 1px, dashed, red;
 }
+
+
 
 input{
     color: #00ffbf;
@@ -38,7 +52,7 @@ padding: 1px 7px;
 }
 
 .city{
-    margin: 10px;
+    
     padding: 5px 10px;
     border-radius: 25px; 
     border: 2px dotted #00ffbf;
@@ -47,4 +61,8 @@ padding: 1px 7px;
 .city:hover {
     box-shadow: 5px 5px #00ffbf;
 
+  }
+
+  ul{
+      list-style:  square;
   }
