@@ -1,74 +1,101 @@
 @font-face {
-    font-family: "Basic Manual";
-    src: url("./fonts/SvBasicManual-nRPP.ttf");
-
-  }
-
-  @font-face{
-    font-family: "Space Age";
-    src: url("./fonts/space-age.ttf");
-  }
-
-body{
-    background-color: #1d1d1d;
-    color: #00ffbf;
-    font-family: "Basic Manual";
-    text-shadow: 0 0 10px #00ffbfa4;
+  font-family: "Basic Manual";
+  src: url("./fonts/SvBasicManual-nRPP.ttf");
 }
 
-h1, h2, h3{
-    font-family: "Space Age";
+@font-face {
+  font-family: "Space Age";
+  src: url("./fonts/space-age.ttf");
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #00ffbf;
+  font-family: "Basic Manual";
+  text-shadow: 0 0 10px #00ffbfa4;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Space Age";
+ 
 }
 
 .bord {
-margin: 10px;
-   border-radius: 25px; 
-   border: 1px solid #00ffbf;
-   padding: 5px 10px;
-   box-shadow: 0 0 10px  #00ffbfa4;
-    
+  margin: 10px;
+  border-radius: 25px;
+  border: 1px solid #00ffbf;
+  padding: 5px 10px;
+  box-shadow: 0 0 10px #00ffbfa4;
 }
 
-.row{
-    border: 1px, dashed, red;
+.row {
+  border: 1px, dashed, red;
 }
 
-
-
-input{
-    color: #00ffbf;
-    background: none;
+form {
+  justify-content: center;
 }
 
-input[type=text]:focus {
-    box-shadow: 7px 7px #00ffbf;
-
-  }
-
-.btn{
-background: #00ffbf;
-border-radius: 25px; 
-padding: 1px 7px;
+input {
+  color: #00ffbf;
+  background: none;
 }
 
-.city{
-    
-    padding: 5px 10px;
-    border-radius: 25px; 
-    border: 2px dotted #00ffbf;
+input[type="text"]:focus {
+  box-shadow: 7px 7px #00ffbf;
+}
+
+.btn {
+  background: #00ffbf;
+  border-radius: 25px;
+  padding: 1px 7px;
+}
+
+.city {
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: 2px dotted #00ffbf;
 }
 
 .city:hover {
-    box-shadow: 5px 5px #00ffbf;
+  box-shadow: 5px 5px #00ffbf;
+}
 
+ul {
+  list-style: square;
+  float:left;
+}
+
+#current-uv-span {
+  padding: 0 3px;
+  color: #1d1d1d;
+  border-radius: 5px;
+}
+
+@media (max-width: 736px) {
+  li {
+    font-size: 11px;
   }
 
-  ul{
-      list-style:  square;
+  .forecast {
+    flex: 1;
   }
+}
 
-  #current-uv-span{
-      padding: 0 3px;
-      color: #1d1d1d;
-      border-radius: 5px;
-  }
+.icon{
+    filter: invert(94%) sepia(46%) saturate(4402%) hue-rotate(82deg) brightness(100%) contrast(108%);
+}
+
+.icons{
+    display:inline;
+    float: right;
+    filter: invert(94%) sepia(46%) saturate(4402%) hue-rotate(82deg) brightness(100%) contrast(108%);
+}
+
+h3{
+ display:inline;   
+    
+
+}
